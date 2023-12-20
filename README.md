@@ -13,3 +13,31 @@ Note that ammo values max out at 255, but will reset to 99 when picking up ammo 
 when the game is saved. Enabling power-ups sets a hacked time value, so they will last around 45 minutes. When they wear off, saving and reloading will reactive them.
 
 ![GTA2-SaveEdit-UI](https://github.com/JulianOzelRose/GTA2-SaveEdit/assets/95890436/314d21aa-07cc-40ff-8d57-d5b0602b76ea)
+
+## Offset table
+| **File Offset**    | **Type**       | **Variable**                      |
+| :---               | :---           | :---                              |
+| 0x64               | UInt32         | Cash                              |
+| 0x68               | BYTE           | Lives Remaining                   |
+| 0x6C               | BYTE           | Health                            |
+| 0x74               | BYTE           | Armor                             |
+| 0x76               | BYTE           | Get Outta Jail Free Card Power-Up |
+| 0x7B               | BYTE           | Invulnerability Power-Up          |
+| 0x7D               | BYTE           | Double Damage Power-Up            |
+| 0x7F               | BYTE           | Fast Reload Power-Up              |
+| 0x81               | BYTE           | ElectroFingers Power-Up           |
+| 0x85               | BYTE           | Invisibility Power-Up             |
+| 0xBA               | BYTE           | Pistol Ammo                       |
+| 0xBB               | BYTE           | S-Uzi Machine Gun Ammo            |
+| 0xBC               | BYTE           | Rocket Launcher Ammo              |
+| 0xBD               | BYTE           | ElectroGun Ammo                   |
+| 0xBE               | BYTE           | Molotov Cocktails                 |
+| 0xBF               | BYTE           | Grenades                          |
+| 0xC0               | BYTE           | Shotgun Ammo                      |
+| 0xC1               | BYTE           | ElectroBaton Ammo                 |
+| 0xC2               | BYTE           | Flamethrower Ammo                 |
+| 0xC3               | BYTE           | Silenced S-Uzi Machine Gun Ammo   |
+| 0xC4               | BYTE           | Dual Pistol Ammo                  |
+| 0xD4               | BYTE           | Point Multiplier                  |
+| 0xD6               | BYTE           | Weapon Equipped                   |
+| 0xE1               | BYTE           | Wanted Level                      |
