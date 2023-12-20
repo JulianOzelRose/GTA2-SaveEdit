@@ -15,6 +15,11 @@ when the game is saved. Enabling power-ups sets a hacked time value, so they wil
 ![GTA2-SaveEdit-UI](https://github.com/JulianOzelRose/GTA2-SaveEdit/assets/95890436/314d21aa-07cc-40ff-8d57-d5b0602b76ea)
 
 ## Offset table
+Most of these values are stored as bytes, with the exception of cash which is of UInt32 type. There is no enabling or disabling weapons;
+simply giving a weapon an ammo value will enable it, and setting the ammo to 0 will disable it. For the power-ups, a value of 0 indicates
+the power-up is inactive. Similar to ammo, there is no enabling or disabling power-ups; the variable is essentially a timer value. Each
+byte corresponds to approximately 10 seconds, so setting a power-up to 0xFF will set the power-up active for around 45 minutes.
+
 | **File Offset**    | **Type**       | **Variable**                      |
 | :---               | :---           | :---                              |
 | 0x64               | UInt32         | Cash                              |
