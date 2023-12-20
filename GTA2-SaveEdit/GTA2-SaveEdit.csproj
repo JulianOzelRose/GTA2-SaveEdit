@@ -113,6 +113,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\x64\Release\GTA2-SaveEdit.exe" />
     <Content Include="GTA2.ico" />
     <None Include="GTA2_logo_black.png" />
   </ItemGroup>
