@@ -3,7 +3,7 @@ This is a standalone savegame editor for Grand Theft Auto 2. With this tool, you
 change cash, health, armor, lives, wanted level. You can also enable power-ups, including Invulnerability, Invisibility, Double Damage,
 Fast Reload, and ElectroFingers. To use this tool, simply navigate to the [Release](https://github.com/JulianOzelRose/GTA2-SaveEdit/tree/master/GTA2-SaveEdit/bin/x64/Release)
 folder, then download and run ```GTA2-SaveEdit.exe```. No installation is necessary; simply download and run. To edit a savegame, navigate
-to your GTA 2 directory. GTA 2 savegame files are in .svg format. They should be located in: <br>
+to your GTA 2 directory. GTA 2 savegame files are in .svg format. They should be located in the following directory: <br>
 
 ```C:\Program Files (x86)\Rockstar Games\GTA2\player```<br>
 
