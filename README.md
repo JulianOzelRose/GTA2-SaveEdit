@@ -19,7 +19,7 @@ the game will reactivate them.
 Most of these values are stored as bytes, with the exception of cash which is of UInt32 type. There is no enabling or disabling weapons;
 simply giving a weapon an ammo value will enable it, and setting the ammo to 0 will disable it. For the power-ups, a value of 0 indicates
 the power-up is inactive. Similar to ammo, there is no enabling or disabling power-ups; the variable is essentially a timer value. Each
-byte corresponds to approximately 10 seconds, so setting a power-up to 0xFF will set the power-up active for around 45 minutes.
+byte corresponds to approximately 10 seconds, so setting a power-up to 0xFF will activate it for around 45 minutes.
 
 | **File offset**    | **Type**       | **Variable**                      |
 | :---               | :---           | :---                              |
