@@ -154,7 +154,7 @@ namespace GTA2_SaveEdit
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(79, 17);
             this.lblVersion.TabIndex = 13;
-            this.lblVersion.Text = "Version 1.00";
+            this.lblVersion.Text = "Version 1.01";
             // 
             // lblAbout6
             // 

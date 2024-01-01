@@ -273,7 +273,7 @@ namespace GTA2_SaveEdit
             {
                 CreateBackup(savegamePath);
                 WriteChanges();
-                MessageBox.Show("Successfully patched savegame.", "Success");
+                MessageBox.Show("Successfully patched savegame.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
