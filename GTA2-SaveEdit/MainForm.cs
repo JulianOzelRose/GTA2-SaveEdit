@@ -83,6 +83,11 @@ namespace GTA2_SaveEdit
 
             string backupFilePath = Path.Combine(directory, $"{fileNameWithoutExtension}{fileExtension}.bak");
 
+            if (File.Exists(backupFilePath))
+            {
+                File.SetAttributes(backupFilePath, File.GetAttributes(backupFilePath) & ~FileAttributes.ReadOnly);
+            }
+
             File.Copy(filePath, backupFilePath, true);
         }
 
@@ -273,6 +278,7 @@ namespace GTA2_SaveEdit
             {
                 try
                 {
+                    File.SetAttributes(savegamePath, File.GetAttributes(savegamePath) & ~FileAttributes.ReadOnly);
                     CreateBackup(savegamePath);
                     WriteChanges();
                     MessageBox.Show("Successfully patched savegame.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
