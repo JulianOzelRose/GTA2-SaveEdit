@@ -271,9 +271,16 @@ namespace GTA2_SaveEdit
         {
             if (File.Exists(savegamePath))
             {
-                CreateBackup(savegamePath);
-                WriteChanges();
-                MessageBox.Show("Successfully patched savegame.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                try
+                {
+                    CreateBackup(savegamePath);
+                    WriteChanges();
+                    MessageBox.Show("Successfully patched savegame.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
