@@ -6,7 +6,7 @@ You can also find information on reverse engineering GTA 2 savegames, along with
 
 ![GTA2-SaveEdit-UI](https://github.com/JulianOzelRose/GTA2-SaveEdit/assets/95890436/314d21aa-07cc-40ff-8d57-d5b0602b76ea)
 
-# Installation and use
+## Installation and use
 To use the latest stable release of this tool, simply navigate to the [Releases](https://github.com/JulianOzelRose/GTA2-SaveEdit/releases)
 section, then download and run `GTA2-SaveEdit-v1.02.exe`. No installation is necessary; simply download and run. To edit a savegame, navigate
 to your GTA 2 directory. GTA 2 savegame files are in `.svg` format. They should be located in the following directory: <br>
