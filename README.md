@@ -1,14 +1,18 @@
 # Grand Theft Auto 2 - Savegame Editor
 This is a standalone savegame editor for Grand Theft Auto 2. With this tool, you can change ammunition for every weapon, as well as
 change cash, health, armor, lives, wanted level. You can also enable power-ups, including Invulnerability, Invisibility, Double Damage,
-Fast Reload, and ElectroFingers. To use the latest stable release of this tool, simply navigate to the [Releases](https://github.com/JulianOzelRose/GTA2-SaveEdit/releases)
-section, then download and run ```GTA2-SaveEdit-v1.02.exe```. No installation is necessary; simply download and run. To edit a savegame, navigate
-to your GTA 2 directory. GTA 2 savegame files are in .svg format. They should be located in the following directory: <br>
+Fast Reload, and ElectroFingers. For more information and instructions on how to use this tool, scroll down to the section below.
+You can also find information on reverse engineering GTA 2 savegames, along with an offset table at the bottom of this README.
 
-```C:\Program Files (x86)\Rockstar Games\GTA2\player```<br>
+# Installation and use
+To use the latest stable release of this tool, simply navigate to the [Releases](https://github.com/JulianOzelRose/GTA2-SaveEdit/releases)
+section, then download and run `GTA2-SaveEdit-v1.02.exe`. No installation is necessary; simply download and run. To edit a savegame, navigate
+to your GTA 2 directory. GTA 2 savegame files are in `.svg` format. They should be located in the following directory: <br>
+
+`C:\Program Files (x86)\Rockstar Games\GTA2\player`<br>
 
 This tool automatically creates backups of your savegame as a precaution, which will have the identical name to the original save with ".bak"
-added to the end. Once a savegame is loaded, you can modify to your desire. You can click ```Reload``` to update the values after saving through the game.
+added to the end. Once a savegame is loaded, you can modify to your desire. You can click "Reload" to update the values after saving through the game.
 Note that ammo values max out at 255, but will reset to 99 when picking up ammo in game. Lives and the point multiplier max out at 255, but reset to 99
 when the game is saved. Enabling power-ups sets a hacked time value, so they will last around 45 minutes. When they wear off, saving and reloading
 the game will reactivate them.
