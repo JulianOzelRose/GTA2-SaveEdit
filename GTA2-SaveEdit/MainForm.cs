@@ -57,17 +57,17 @@ namespace GTA2_SaveEdit
             }
         }
 
-        private UInt32 ReadUInt32(int offset)
+        private Int32 ReadInt32(int offset)
         {
             byte byte1 = ReadByte(offset);
             byte byte2 = ReadByte(offset + 1);
             byte byte3 = ReadByte(offset + 2);
             byte byte4 = ReadByte(offset + 3);
 
-            return (UInt32)(byte1 + (byte2 << 8) + (byte3 << 16) + (byte4 << 24));
+            return (Int32)(byte1 + (byte2 << 8) + (byte3 << 16) + (byte4 << 24));
         }
 
-        private void WriteUInt32(int offset, UInt32 value)
+        private void WriteInt32(int offset, Int32 value)
         {
             WriteByte(offset, (byte)value);
             WriteByte(offset + 1, (byte)(value >> 8));
@@ -189,7 +189,7 @@ namespace GTA2_SaveEdit
 
         private void DisplayGameData()
         {
-            nudCash.Value = ReadUInt32(cashOffset);
+            nudCash.Value = ReadInt32(cashOffset);
             nudLives.Value = ReadByte(livesOffset);
             nudMultiplier.Value = ReadByte(multiplierOffset);
             nudPistolAmmo.Value = ReadByte(pistolAmmoOffset);
@@ -215,7 +215,7 @@ namespace GTA2_SaveEdit
 
         private void WriteChanges()
         {
-            WriteUInt32(cashOffset, (UInt32)nudCash.Value);
+            WriteInt32(cashOffset, (Int32)nudCash.Value);
             WriteByte(livesOffset, (byte)nudLives.Value);
             WriteByte(multiplierOffset, (byte)nudMultiplier.Value);
             WriteByte(pistolAmmoOffset, (byte)nudPistolAmmo.Value);
