@@ -20,7 +20,7 @@ when the game is saved. Enabling power-ups sets a hacked time value, so they wil
 the game will reactivate them.
 
 ## Offset table
-Most of these values are stored as Int8, with the exception of cash which is of Int32 type. There is no enabling or disabling weapons;
+Most of these values are stored as UInt8, with the exception of cash which is of Int32 type. There is no enabling or disabling weapons;
 simply giving a weapon an ammo value will enable it, and setting the ammo to 0 will disable it. For the power-ups, a value of 0 indicates
 the power-up is inactive. Similar to ammo, there is no enabling or disabling power-ups; the variable is essentially a timer value. Each
 byte corresponds to approximately 10 seconds, so setting a power-up to 0xFF will activate it for around 45 minutes.
@@ -28,26 +28,26 @@ byte corresponds to approximately 10 seconds, so setting a power-up to 0xFF will
 | **File offset**    | **Type**       | **Variable**                      |
 | :---               | :---           | :---                              |
 | 0x64               | Int32          | Cash                              |
-| 0x68               | Int8           | Lives                             |
-| 0x6C               | Int8           | Health                            |
-| 0x74               | Int8           | Armor                             |
-| 0x76               | Int8           | Get Outta Jail Free Card Power-Up |
-| 0x7B               | Int8           | Invulnerability Power-Up          |
-| 0x7D               | Int8           | Double Damage Power-Up            |
-| 0x7F               | Int8           | Fast Reload Power-Up              |
-| 0x81               | Int8           | ElectroFingers Power-Up           |
-| 0x85               | Int8           | Invisibility Power-Up             |
-| 0xBA               | Int8           | Pistol Ammo                       |
-| 0xBB               | Int8           | S-Uzi Machine Gun Ammo            |
-| 0xBC               | Int8           | Rocket Launcher Ammo              |
-| 0xBD               | Int8           | ElectroGun Ammo                   |
-| 0xBE               | Int8           | Molotov Cocktails                 |
-| 0xBF               | Int8           | Grenades                          |
-| 0xC0               | Int8           | Shotgun Ammo                      |
-| 0xC1               | Int8           | ElectroBaton Ammo                 |
-| 0xC2               | Int8           | Flamethrower Ammo                 |
-| 0xC3               | Int8           | Silenced S-Uzi Machine Gun Ammo   |
-| 0xC4               | Int8           | Dual Pistol Ammo                  |
-| 0xD4               | Int8           | Point Multiplier                  |
-| 0xD6               | Int8           | Weapon Equipped                   |
-| 0xE1               | Int8           | Wanted Level                      |
+| 0x68               | UInt8          | Lives                             |
+| 0x6C               | UInt8          | Health                            |
+| 0x74               | UInt8          | Armor                             |
+| 0x76               | UInt8          | Get Outta Jail Free Card Power-Up |
+| 0x7B               | UInt8          | Invulnerability Power-Up          |
+| 0x7D               | UInt8          | Double Damage Power-Up            |
+| 0x7F               | UInt8          | Fast Reload Power-Up              |
+| 0x81               | UInt8          | ElectroFingers Power-Up           |
+| 0x85               | UInt8          | Invisibility Power-Up             |
+| 0xBA               | UInt8          | Pistol Ammo                       |
+| 0xBB               | UInt8          | S-Uzi Machine Gun Ammo            |
+| 0xBC               | UInt8          | Rocket Launcher Ammo              |
+| 0xBD               | UInt8          | ElectroGun Ammo                   |
+| 0xBE               | UInt8          | Molotov Cocktails                 |
+| 0xBF               | UInt8          | Grenades                          |
+| 0xC0               | UInt8          | Shotgun Ammo                      |
+| 0xC1               | UInt8          | ElectroBaton Ammo                 |
+| 0xC2               | UInt8          | Flamethrower Ammo                 |
+| 0xC3               | UInt8          | Silenced S-Uzi Machine Gun Ammo   |
+| 0xC4               | UInt8          | Dual Pistol Ammo                  |
+| 0xD4               | UInt8          | Point Multiplier                  |
+| 0xD6               | UInt8          | Weapon Equipped                   |
+| 0xE1               | UInt8          | Wanted Level                      |
