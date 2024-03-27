@@ -7,14 +7,14 @@ You can also find information on reverse engineering GTA 2 savegames, along with
 ![GTA2-SaveEdit-UI](https://github.com/JulianOzelRose/GTA2-SaveEdit/assets/95890436/314d21aa-07cc-40ff-8d57-d5b0602b76ea)
 
 ## Installation and use
-To use the latest stable release of this tool, simply navigate to the [Releases](https://github.com/JulianOzelRose/GTA2-SaveEdit/releases)
-section, then download and run `GTA2-SaveEdit-v1.03.exe`. No installation is necessary; simply download and run. To edit a savegame, navigate
+To download this savegame editor, simply navigate to the [Releases](https://github.com/JulianOzelRose/GTA2-SaveEdit/releases)
+page, then download the .exe file of the latest version under "Assets". No installation is necessary; simply download and run. To edit a savegame, navigate
 to your GTA 2 directory. GTA 2 savegame files are in `.svg` format. They should be located in the following directory: <br>
 
 `C:\Program Files (x86)\Rockstar Games\GTA2\player`<br>
 
-This tool automatically creates backups of your savegame as a precaution, which will have the identical name to the original save with ".bak"
-added to the end. Once a savegame is loaded, you can modify to your desire. You can click "Reload" to update the values after saving through the game.
+This tool automatically creates backups of your savegame as a precaution, which will have the identical name to the original save with `.bak` suffixed to the file name.
+Once a savegame is loaded, you can modify to your desire. You can click "Reload" to update the values after saving through the game.
 Note that ammo values max out at 255, but will reset to 99 when picking up ammo in game. Lives and the point multiplier max out at 255, but reset to 99
 when the game is saved. Enabling power-ups sets a hacked time value, so they will last around 45 minutes. When they wear off, saving and reloading
 the game will reactivate them.
