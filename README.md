@@ -4,7 +4,7 @@ change cash, health, armor, lives, wanted level. You can also enable power-ups, 
 Fast Reload, and ElectroFingers. For more information and instructions on how to use this tool, scroll down to the section below.
 You can also find information on reverse engineering GTA 2 savegames, along with an offset table at the bottom of this README.
 
-![GTA2-SaveEdit-UI](https://github.com/JulianOzelRose/GTA2-SaveEdit/assets/95890436/314d21aa-07cc-40ff-8d57-d5b0602b76ea)
+![GTA2-SaveEdit-UI](https://github.com/JulianOzelRose/GTA2-SaveEdit/assets/95890436/3de95e76-7c43-4ed1-ba2f-eb05d698655b)
 
 ## Installation and use
 To download this savegame editor, simply navigate to the [Releases](https://github.com/JulianOzelRose/GTA2-SaveEdit/releases)
