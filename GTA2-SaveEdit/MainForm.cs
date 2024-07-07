@@ -37,6 +37,7 @@ namespace GTA2_SaveEdit
 
         // Strings
         private string savegamePath;
+        private string savegameDirectory = "c:\\";
 
         private byte ReadByte(int offset)
         {
@@ -243,7 +244,7 @@ namespace GTA2_SaveEdit
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.InitialDirectory = savegameDirectory;
                 openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
@@ -256,6 +257,8 @@ namespace GTA2_SaveEdit
                     if (fileExtension == ".svg")
                     {
                         savegamePath = filePath;
+                        savegameDirectory = Path.GetDirectoryName(filePath);
+
                         txtFile.Text = filePath;
                         DisplayGameData();
                         btnSave.Enabled = true;
