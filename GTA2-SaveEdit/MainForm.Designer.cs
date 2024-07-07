@@ -263,7 +263,7 @@ namespace GTA2_SaveEdit
             // lblDollarSign
             // 
             this.lblDollarSign.AutoSize = true;
-            this.lblDollarSign.Location = new System.Drawing.Point(86, 20);
+            this.lblDollarSign.Location = new System.Drawing.Point(86, 18);
             this.lblDollarSign.Name = "lblDollarSign";
             this.lblDollarSign.Size = new System.Drawing.Size(13, 13);
             this.lblDollarSign.TabIndex = 2;
@@ -272,7 +272,7 @@ namespace GTA2_SaveEdit
             // lblCash
             // 
             this.lblCash.AutoSize = true;
-            this.lblCash.Location = new System.Drawing.Point(16, 20);
+            this.lblCash.Location = new System.Drawing.Point(16, 18);
             this.lblCash.Name = "lblCash";
             this.lblCash.Size = new System.Drawing.Size(34, 13);
             this.lblCash.TabIndex = 1;
@@ -280,7 +280,7 @@ namespace GTA2_SaveEdit
             // 
             // nudCash
             // 
-            this.nudCash.Location = new System.Drawing.Point(105, 18);
+            this.nudCash.Location = new System.Drawing.Point(105, 16);
             this.nudCash.Maximum = new decimal(new int[] {
             2147483647,
             0,
