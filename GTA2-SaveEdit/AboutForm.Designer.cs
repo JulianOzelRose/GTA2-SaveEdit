@@ -93,7 +93,7 @@ namespace GTA2_SaveEdit
             this.lblAbout1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbout1.Location = new System.Drawing.Point(10, 200);
             this.lblAbout1.Name = "lblAbout1";
-            this.lblAbout1.Size = new System.Drawing.Size(247, 16);
+            this.lblAbout1.Size = new System.Drawing.Size(246, 16);
             this.lblAbout1.TabIndex = 6;
             this.lblAbout1.Text = "• Ammo values max out at 255 but reset to 99";
             // 
@@ -103,7 +103,7 @@ namespace GTA2_SaveEdit
             this.lblAbout2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbout2.Location = new System.Drawing.Point(18, 217);
             this.lblAbout2.Name = "lblAbout2";
-            this.lblAbout2.Size = new System.Drawing.Size(183, 16);
+            this.lblAbout2.Size = new System.Drawing.Size(182, 16);
             this.lblAbout2.TabIndex = 7;
             this.lblAbout2.Text = "when picking up ammo in game.";
             // 
@@ -113,7 +113,7 @@ namespace GTA2_SaveEdit
             this.lblAbout3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbout3.Location = new System.Drawing.Point(10, 244);
             this.lblAbout3.Name = "lblAbout3";
-            this.lblAbout3.Size = new System.Drawing.Size(248, 16);
+            this.lblAbout3.Size = new System.Drawing.Size(247, 16);
             this.lblAbout3.TabIndex = 8;
             this.lblAbout3.Text = "• Lives and multiplier max out at 255 but reset";
             // 
@@ -133,7 +133,7 @@ namespace GTA2_SaveEdit
             this.lblAbout4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbout4.Location = new System.Drawing.Point(18, 260);
             this.lblAbout4.Name = "lblAbout4";
-            this.lblAbout4.Size = new System.Drawing.Size(198, 16);
+            this.lblAbout4.Size = new System.Drawing.Size(197, 16);
             this.lblAbout4.TabIndex = 12;
             this.lblAbout4.Text = "to 99 when the game is saved again.";
             // 
@@ -162,7 +162,7 @@ namespace GTA2_SaveEdit
             this.lblAbout6.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbout6.Location = new System.Drawing.Point(18, 304);
             this.lblAbout6.Name = "lblAbout6";
-            this.lblAbout6.Size = new System.Drawing.Size(202, 16);
+            this.lblAbout6.Size = new System.Drawing.Size(201, 16);
             this.lblAbout6.TabIndex = 15;
             this.lblAbout6.Text = "reactivate after saving and reloading.";
             // 
@@ -172,7 +172,7 @@ namespace GTA2_SaveEdit
             this.lblAbout5.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbout5.Location = new System.Drawing.Point(10, 288);
             this.lblAbout5.Name = "lblAbout5";
-            this.lblAbout5.Size = new System.Drawing.Size(235, 16);
+            this.lblAbout5.Size = new System.Drawing.Size(234, 16);
             this.lblAbout5.TabIndex = 14;
             this.lblAbout5.Text = "• Power-ups last for around 45 minutes but";
             // 
